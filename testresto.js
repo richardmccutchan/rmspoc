@@ -236,7 +236,7 @@ var vm = new Vue({
     	console.log(vm.restaurant[0]);
       axios.post('https://my-json-server.typicode.com/richardmccutchan/rmspoc/restaurant', vm.restaurant[0], {headers: {
       'Content-type': 'application/x-www-form-urlencoded',
-    }});
+    }}).then(r => console.log('r:', JSON.stringify(r, null, 2)));
     }
   }
 });
