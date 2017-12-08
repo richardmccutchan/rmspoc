@@ -224,7 +224,7 @@ var vm = new Vue({
     load: function() {
       this.restaurant = '...loading';
       var vm = this;
-      axios.get('http://localhost:3000/restaurant')
+      axios.get('https://my-json-server.typicode.com/richardmccutchan/rmspoc/restaurant')
         .then(function(response) {
           vm.restaurant = response.data;
         })
@@ -234,7 +234,7 @@ var vm = new Vue({
     },
     postNow: function() {
     	console.log(vm.restaurant[0]);
-      axios.post('http://localhost:3000/restaurant', vm.restaurant[0], {headers: {
+      axios.post('https://my-json-server.typicode.com/richardmccutchan/rmspoc/restaurant', vm.restaurant[0], {headers: {
       'Content-type': 'application/x-www-form-urlencoded',
     }});
     }
