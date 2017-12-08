@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>VueJS</title>
+	<script src="https://vuejs.org/js/vue.js"></script>
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+
+
+	<div id="app">
+	<form class="" method="post" @submit.prevent="postNow">
+	<p><label>ZIP</label>
+	<input type="text" name="" value="restaurant[0].address.zipcode" v-model="restaurant[0].address.zipcode">
+	<label>City</label>
+	<input type="text" name="" value="restaurant[0].address.city" v-model="restaurant[0].address.city"></p>
+	<p><label>Street</label>
+	<input type="text" name="" value="restaurant[0].address.street" v-model="restaurant[0].address.street">
+	<label>Nr.</label>
+	<input type="text" name="" value="restaurant[0].address.street_no" v-model="restaurant[0].address.street_no"></p>
+
+ 	<button type="submit" name="button">Submit</button>
+ </form>
+		<!-- <input type="text" v-model="restaurant[0].address.city" value="restaurant[0].address.city" @change="postPost()"> -->
+
+
+		<p>{{ restaurant[0].address.street }} {{ restaurant[0].address.street_no }}</p>
+		<p>{{ restaurant[0].address.zipcode }} {{ restaurant[0].address.city }}</p>
+
+	</div>
+
+
+	<script src="testresto.js"></script>
+</body>
+
+</html>

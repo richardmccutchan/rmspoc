@@ -1,0 +1,218 @@
+{
+  "restaurant": [
+    {
+      "address": {
+        "city": "Berlin",
+        "country_code": "DE",
+        "id": 12345,
+        "latitude": 12345,
+        "longitude": 12345,
+        "street": "Muster Straße",
+        "street_no": "43",
+        "zipcode": "12627"
+      },
+      "chain": {
+        "group_name": null,
+        "id": 123,
+        "key_account": false,
+        "name": "XXX"
+      },
+      "created_ts": "2017-09-15T09:23:37.707020+00:00",
+      "custom_data": null,
+      "deleted": false,
+      "emails": [
+        {
+          "email": "firstname_883.lastname_883@xxx.com",
+          "email_type": "general",
+          "id": 123456,
+          "imprint": false
+        }
+      ],
+      "global_id": "123456",
+      "id": 123456,
+      "modified_ts": "2017-11-30T12:10:13.298887+00:00",
+      "owner": {
+        "business_entity": null,
+        "company": "XXX",
+        "id": 123456,
+        "managing_directors": "",
+        "name": "Herr XXX",
+        "registration_court": "",
+        "registration_number": "",
+        "tax_number": ""
+      },
+      "phones": [
+        {
+          "id": 123456,
+          "imprint": false,
+          "phone_number": "+4930123456",
+          "phone_type": "fax"
+        },
+        {
+          "id": 123456,
+          "imprint": false,
+          "phone_number": "+4930123456",
+          "phone_type": "phone"
+        }
+      ],
+      "platforms": {
+        "LH": {
+          "categories": [
+            {
+              "id": 123,
+              "name": "XXX",
+              "primary_category": true
+            },
+            {
+              "id": 123,
+              "name": "XXX",
+              "primary_category": false
+            }
+          ],
+          "custom_data": {
+            "cocacola_promotion": false,
+            "custom_preorder_minimum_time": "",
+            "default_delivery_time": "",
+            "express": false,
+            "express_refund_logic": "",
+            "guaranteed_delivery_time": "",
+            "hide_google_places_order_action": true,
+            "lh_award": false,
+            "ninecookies_live_tracking": false,
+            "preorder": true,
+            "recommended": false,
+            "white_label": "",
+            "white_label_external": false,
+            "white_label_offline": false
+          },
+          "deleted": false,
+          "id": 123456,
+          "key_account": true,
+          "last_dowant_sync_ts": null,
+          "last_salesforce_sync_ts": null,
+          "name": "XXX",
+          "online": true,
+          "payment_methods": [
+            {
+              "id": 12,
+              "name": "cash",
+              "online_payment": false
+            },
+            {
+              "id": 12,
+              "name": "online",
+              "online_payment": true
+            }
+          ],
+          "platform": "XD",
+          "platform_id": "123456",
+          "reachable": true,
+          "salesforce_id": "123456",
+          "slug": "XXX",
+          "transmissions": [
+            {
+              "enabled": true,
+              "id": 123,
+              "name": "XXX",
+              "parameters": {
+                "device_id": "XXX",
+                "phone_number": "11"
+              }
+            },
+            {
+              "enabled": true,
+              "id": 123,
+              "name": "sms",
+              "parameters": {
+                "sms_number": "+4930123456"
+              }
+            }
+          ]
+        },
+        "PDE": {
+          "categories": [
+            {
+              "id": 123,
+              "name": "XXX",
+              "primary_category": false
+            },
+            {
+              "id": 123,
+              "name": "XXX",
+              "primary_category": true
+            }
+          ],
+          "custom_data": {
+            "brand_promotion_monday": true,
+            "brand_promotion_thursday": false,
+            "brand_promotion_tuesday": false,
+            "brand_promotion_wednesday": true,
+            "cocacola_promotion": false,
+            "custom_preorder_minimum_time": "",
+            "default_delivery_time": "",
+            "express": false,
+            "express_refund_logic": "",
+            "guaranteed_delivery_time": "",
+            "hide_google_places_order_action": false,
+            "kinder_menu": false,
+            "ninecookies_live_tracking": false,
+            "pde_anniversary": false,
+            "preorder": true,
+            "white_label": "",
+            "white_label_external": false,
+            "white_label_offline": false
+          },
+          "deleted": false,
+          "id": 123456,
+          "key_account": true,
+          "last_dowant_sync_ts": "2017-11-30T12:20:32.887802+00:00",
+          "last_salesforce_sync_ts": null,
+          "name": "Pizza Max",
+          "online": true,
+          "payment_methods": [
+            {
+              "id": 37,
+              "name": "cash",
+              "online_payment": false
+            },
+            {
+              "id": 38,
+              "name": "online",
+              "online_payment": true
+            },
+            {
+              "id": 41,
+              "name": "ec_card",
+              "online_payment": false
+            }
+          ],
+          "platform": "XXX",
+          "platform_id": "123",
+          "reachable": true,
+          "salesforce_id": "123456",
+          "slug": "musterstr-123",
+          "transmissions": [
+            {
+              "enabled": true,
+              "id": 123,
+              "name": "pos_polling",
+              "parameters": {
+                "pos_polling_id": "123456",
+                "pos_polling_password": "123456",
+                "pos_polling_user": "123456"
+              }
+            },
+            {
+              "enabled": true,
+              "id": 123,
+              "name": "sms",
+              "parameters": {
+                "sms_number": "+4930123456"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
